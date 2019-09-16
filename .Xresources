@@ -1,0 +1,56 @@
+!! Colorscheme NumixDarkest
+
+! special
+URxvt*.foreground:   #a2a2a2
+URxvt*.background:   #282828
+URxvt*.cursorColor:  #a2a2a2
+
+! black
+URxvt*.color0:       #555555
+URxvt*.color8:       #888888
+
+! red
+URxvt*.color1:       #9c3528
+URxvt*.color9:       #d64937
+
+! green
+URxvt*.color2:       #61bc3b
+URxvt*.color10:      #86df5d
+
+! yellow
+URxvt*.color3:       #f3b43a
+URxvt*.color11:      #fdd75a
+
+! blue
+URxvt*.color4:       #0d68a8
+URxvt*.color12:      #0f75bd
+
+! magenta
+URxvt*.color5:       #744560
+URxvt*.color13:      #9e5e83
+
+! cyan
+URxvt*.color6:       #288e9c
+URxvt*.color14:      #37c3d6
+
+! white
+URxvt*.color7:       #a2a2a2
+URxvt*.color15:      #f9f9f9
+
+!! URxvt appearance
+
+URxvt*font:           xft:DejaVu Sans Mono:style=Book:pixelsize=16
+URxvt*boldFont:       xft:DejaVu Sans Mono:style=Bold:pixelsize=16
+URxvt*italicFont:     xft:DejaVu Sans Mono:style=Oblique:pixelsize=16
+URxvt*boldItalicFont: xft:DejaVu Sans Mono:style=BoldOblique:pixelsize=16
+
+URxvt*scrollBar:          true     
+URxvt*thickness:          5
+URxvt*scrollBar_right:    true
+URxvt*scrollstyle:        plain
+
+!! Extensions
+! Zooming (font size)
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+URxvt.perl-ext-common:  default,resize-font
