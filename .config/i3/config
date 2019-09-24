@@ -171,8 +171,12 @@ bar {
 
 
 # Key pressing speed
-exec xset r rate 215 30
+exec xset r rate 250 30
 
 # Detect screens on startup
 exec xrandr --auto
+
+
+# Move to previous workspace by selecting current workspace
+workspace_auto_back_and_forth yes
 
